@@ -1,0 +1,158 @@
+.contenedor{
+    position: relative;
+    text-align: right;
+}
+
+.texto-encima{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 1cm;
+    text-align: left;
+    color: white;
+    top: 225px;
+    right: 20px;
+}
+
+.texto-encima1{
+    position: absolute;
+    font-size:larger;
+    text-align: right;
+    color: white;
+    top: 300px;
+    left: 700px;
+    right: 20px; 
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.container {
+width: 100%;
+height: 100%;
+position: relative;
+}
+
+.container img {
+width: 100%;
+height: 100%;
+background: rgb(15, 15, 15)
+opacity: 0.8;
+position: relative;
+}
+
+.container p {
+font-size: 16px;
+color: white;
+position: relative;
+transform: traslate (-50%, -50%);
+}
+
+.container h6 {
+    font-size: 12px;
+    color: black;
+    }
+
+
+.container2 {
+    height: 50%;
+    position: relative;
+    
+}
+        
+        .container2 img {
+        width: 50%;
+        height: 50%;
+        background:#212121
+        opacity: 0.5;
+        position: relative;
+        }
+        
+        .container2 p {
+        font-size: 16px;
+        color: black;
+        position: relative;
+        transform: traslate (-50%, -50%);
+        }
+        
+        .container2 h3 {
+            font-size: 30px;
+            color: white;
+            position: relative;
+            top: 40%;
+            Left: 50%;  
+            transform: traslate (-50%, -50%);
+            }
+
+.img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    position: relative;
+}
+
+.img var {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+} 
+
+
+.card1 {
+    width: 250px;
+    height: 600px;
+    margin: 20px;
+    align-self: center;
+    position: relative;
+    border-color: red; 
+    border: 1px;
+}
+
+.card1 img{
+    width: 80%;
+    height: 300px;
+    margin: 20px;
+    align-self: center;
+    object-fit: cover;
+    position: relative;
+}
+
+.card1 body{
+    font-style: black;
+    position: relative;
+    margin: 20px; 
+    align-self: center;
+}
+
+.card1 text{
+    font-style: black;
+    margin: 20px;
+    align-self: center;
+    position: relative;
+}
+
+.card2 {
+    width: 50%;
+    height: 50%;
+    margin: 20px;
+}
+
+.card2-img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card2-text{
+    color: #ffffff;
+    position: relative;
+}
+
+.nav img {
+    width: 100%;
+    height: 25px;
+}
